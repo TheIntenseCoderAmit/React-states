@@ -1,16 +1,19 @@
 
 import "./App.css";
-import LudoBoard from "./LodoBoard";
-import TodoList from "./TodoList";
+import Ticket from "./Ticket";
+
+
+import Lottery from "./lotteryGame";
   
 function App() {
 
 
+
   return (
     <>
-   <TodoList/>
+   <Lottery n={3} winningsum={15}/>
     </>
-  )
+  );
 }
 
 export default App
